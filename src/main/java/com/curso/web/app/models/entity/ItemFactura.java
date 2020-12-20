@@ -34,6 +34,8 @@ public class ItemFactura implements Serializable {
 		this.cantidad = cantidad;
 	}
 	
+	
+	
 	public Long calcularImporte() {
 		return cantidad.longValue();
 	}
